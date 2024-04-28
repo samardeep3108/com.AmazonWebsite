@@ -7,10 +7,6 @@
         <methods>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="UserPassword" invocation-numbers="0"/>
-          <include name="ProductSearchBar"/>
-          <include name="UserLoginPage" invocation-numbers="0"/>
-          <include name="UserWelcomePage"/>
           <include name="AddtoCart"/>
         </methods>
       </class> <!-- TestCase.TestCase -->
