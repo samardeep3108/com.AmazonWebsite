@@ -62,10 +62,11 @@ public void ProductSearchBar () {
 }
 @Test (priority = 4)
 public void AddtoCart () throws InterruptedException {
-	Thread.sleep(3000);
+	Thread.sleep(4000);
 	
 	SearchResult SR = new SearchResult(driver);
 	SR.AddToCart();
+	logger.info("this is testing");
 	
 }
 
